@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android_Runnable</string>
+    <string name="task_1_login">Task 1 - Login</string>
+    <string name="task_2_time">Task 2 - Time</string>
+    <string name="task_3_simulation">Task 3 - Simulation</string>
+    <string name="login">Login</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="back">Back</string>
+</resources>
