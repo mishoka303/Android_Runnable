@@ -9,4 +9,6 @@
     <string name="back">Back</string>
     <string name="pause">PAUSE</string>
     <string name="_0_seconds_passed">0 seconds passed</string>
+    <string name="the_result_goes_here">THE RESULT GOES HERE</string>
+    <string name="check">Check</string>
 </resources>

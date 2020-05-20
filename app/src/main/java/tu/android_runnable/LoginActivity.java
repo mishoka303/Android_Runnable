@@ -15,7 +15,6 @@ public class LoginActivity extends AppCompatActivity {
 
     EditText email, password;
     TextView errMsg;
-    Button submit;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -24,7 +23,6 @@ public class LoginActivity extends AppCompatActivity {
 
         email = findViewById(R.id.login_email);
         password = findViewById(R.id.login_password);
-        submit = findViewById(R.id.login_buttonSubmit);
         errMsg = findViewById(R.id.login_message);
     }
 

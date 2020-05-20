@@ -15,7 +15,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.sql.Time;
 
 public class TimeActivity extends AppCompatActivity {
-    Button Bpause, Breturn;
     TextView timeText;
     boolean pauseFlag = false;
     final Thread thread = new Thread();
@@ -26,8 +25,6 @@ public class TimeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.time_view);
 
-        Bpause = findViewById(R.id.time_pauseButton);
-        Breturn = findViewById(R.id.time_returnButton);
         timeText = findViewById(R.id.time_timeText);
         Thread thread = new Thread(runnable);
         thread.start();
